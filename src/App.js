@@ -1,7 +1,10 @@
+import answers from './answers';
+import EightBall from './EightBall';
+
 function App() {
   return (
     <div>
-      <EightBall />
+      <EightBall answers={answers}/>
     </div>
   );
 }
